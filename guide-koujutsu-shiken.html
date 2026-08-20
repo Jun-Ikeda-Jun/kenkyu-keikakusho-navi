@@ -1,10 +1,10 @@
 <!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>口述試験で研究計画書はこう使われる｜面接から逆算して書く｜研究計画書ナビ</title><meta name="description" content="大学院入試の面接（口述試験）で研究計画書がどう扱われるか。矛盾を作らない書き方。">
+<title>口述試験と研究計画書｜書いた内容と話す内容をそろえておく｜研究計画書ナビ</title><meta name="description" content="計画書に書いたことと面接で話すことが食い違うと困る。準備の段階でそろえるための整理。">
 <link rel="canonical" href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-koujutsu-shiken.html">
-<meta property="og:title" content="口述試験で研究計画書はこう使われる｜面接から逆算して書く｜研究計画書ナビ"><meta property="og:description" content="大学院入試の面接（口述試験）で研究計画書がどう扱われるか。矛盾を作らない書き方。"><meta property="og:type" content="website"><meta property="og:url" content="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-koujutsu-shiken.html">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"口述試験で研究計画書はこう使われる｜面接から逆算して書く","datePublished":"2026-08-20","dateModified":"2026-08-20","author":{"@type":"Organization","name":"研究計画書ナビ"},"mainEntityOfPage":"https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-koujutsu-shiken.html"}</script>
+<meta property="og:title" content="口述試験と研究計画書｜書いた内容と話す内容をそろえておく｜研究計画書ナビ"><meta property="og:description" content="計画書に書いたことと面接で話すことが食い違うと困る。準備の段階でそろえるための整理。"><meta property="og:type" content="website"><meta property="og:url" content="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-koujutsu-shiken.html"><meta property="og:locale" content="ja_JP">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"口述試験と研究計画書｜書いた内容と話す内容をそろえておく","datePublished":"2026-08-20","dateModified":"2026-08-20","author":{"@type":"Person","name":"池田"},"mainEntityOfPage":"https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-koujutsu-shiken.html"}</script>
 <style>
-:root{--ink:#1c1a17;--sub:#6d675e;--line:#e4ddd1;--indigo:#3b3f8f;--indigo2:#2b2e6b;--gold:#b8860b;--bg:#faf7f1;--panel:#fffdf9}
+:root{--ink:#1c1a17;--sub:#6d675e;--line:#e4ddd1;--indigo:#3b3f8f;--indigo2:#2b2e6b;--gold:#8a6508;--bg:#faf7f1;--panel:#fffdf9}
 @media(prefers-color-scheme:dark){:root{--ink:#ece8e1;--sub:#a9a296;--line:#3a362f;--indigo:#8b8fd8;--indigo2:#6d72c4;--gold:#d4a53a;--bg:#171512;--panel:#201d19}}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;color:var(--ink);background:var(--bg);line-height:1.95;font-size:16px}
@@ -40,19 +40,55 @@ article ol,article ul{padding-left:1.4em}article li{margin:6px 0}
 footer{border-top:1px solid var(--line);padding:22px 0 46px;font-size:12.5px;color:var(--sub)}
 footer a{color:var(--sub)}
 a{color:var(--indigo)}
-@media(max-width:560px){header.hero h1{font-size:22px}header.hero h1 br{display:none}section{padding:18px 16px}.list a{flex-direction:column;gap:2px}.list span{white-space:normal}}</style><nav class="top"><div class="w"><span class="brand">研究計画書ナビ</span><a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/">研究科一覧</a><a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-kihon-kousei.html">書き方ガイド</a></div></nav><header class="hero"><div class="w"><span class="tag">書き方ガイド</span><h1>口述試験で研究計画書はこう使われる</h1><p>面接から逆算して書く</p></div></header>
-<main><div class="w"><div class="crumb"><a href="./">研究科一覧</a> › ガイド</div>
+@media(max-width:560px){header.hero h1{font-size:22px}header.hero h1 br{display:none}section{padding:18px 16px}.list a{flex-direction:column;gap:2px}.list span{white-space:normal}}
+/* 2026-08-20 追加: 提出の要否を伝える帯・読み物導線・欠落表示 */
+.badge{display:inline-block;font-size:12px;letter-spacing:.06em;color:var(--sub);margin:0 0 8px}
+.lead{margin:12px 0 0;font-size:15px;color:var(--sub);max-width:34em}
+/* ヒーローの背景は紙色（--panel）なので、白文字にすると読めなくなる */
+header.hero .lead{color:var(--sub)}
+.list{list-style:none;padding:0}
+.list li{margin:0}
+.meta{font-size:13px;color:var(--sub);text-align:right;flex-shrink:0}
+.notice{border:1px solid var(--gold);background:color-mix(in srgb,var(--gold) 8%,var(--panel));
+  border-radius:8px;padding:16px 20px;margin:0 0 24px}
+.notice b{display:block;font-size:17px;margin-bottom:4px}
+.notice p{margin:0;font-size:15px}
+.reads{list-style:none;padding:0;margin:0}
+.reads li{border-top:1px solid var(--line);padding:14px 0}
+.reads li:last-child{border-bottom:1px solid var(--line)}
+.reads a{font-weight:700;text-decoration:none;font-size:16px}
+.reads a:hover{text-decoration:underline}
+.reads span{display:block;font-size:13.5px;color:var(--sub);margin-top:2px}
+.stopped{color:var(--gold);font-size:13px;margin-left:10px;font-weight:600}
+</style><nav class="top"><div class="w"><a class="brand" href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/">研究計画書ナビ</a><a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/">研究科一覧</a><a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-kihon-kousei.html">書き方</a><a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/about.html">このサイトについて</a></div></nav><header class="hero"><div class="w"><span class="badge">書き方ガイド</span><h1>口述試験と研究計画書</h1>
+<p class="lead">書いた内容と話す内容をそろえておく</p></div></header>
+<main><div class="w"><p class="crumb"><a href="./">研究科一覧</a> ／ 書き方ガイド</p>
 <section><article>
-<p>多くの研究科で、口述試験は<strong>研究計画書を教員が手元に置いた状態</strong>で行われます。つまり計画書は「提出して終わり」ではなく、面接の台本になります。</p>
-<h2>必ず聞かれる3つ</h2>
-<ol><li><strong>「なぜこのテーマか」</strong> — 動機。実体験と接続して1分で話せるように</li>
-<li><strong>「この方法で本当に分かるのか」</strong> — 方法の妥当性。代替案（なぜインタビューでなく質問紙か等）まで考えておく</li>
-<li><strong>「先行研究は何を読んだか」</strong> — 計画書に書いた文献は、内容を口頭で説明できる状態にしておく。<strong>読んでいない文献を載せるのが最も危険</strong>です</li></ol>
-<h2>書く段階でできる面接対策</h2>
-<p>計画書に書く一文一文について「これを深掘りされたら3分話せるか」を自問してください。話せない内容は、書かないか、話せるまで調べるかの二択です。</p>
-<p>また、志望研究科の教員の専門と自分のテーマの接続（「◯◯先生の△△研究に近い問題意識」）は、口頭で必ず問われます。研究科サイトの教員一覧と主要業績は事前に確認しておきましょう。</p></article></section>
-<section><h2>ほかのガイド</h2><div class="guides"><a href="guide-kihon-kousei.html"><b>研究計画書の基本構成</b><span>大学院入試の研究計画書に必要な要素と順番。審査側が最初に見る「研究の問い」の立て方。</span></a><a href="guide-shakaijin-theme.html"><b>社会人が研究テーマを決める手順</b><span>社会人大学院・MBAの研究計画で、業務経験を研究テーマに落とし込む具体的な手順。</span></a><a href="guide-mba-essay-chigai.html"><b>MBAのエッセイと研究計画書の違い</b><span>MBA出願のエッセイ（キャリアゴール型）と研究計画書（リサーチ型）の違いと、それぞれの書き分け。</span></a><a href="guide-ngshu.html"><b>落ちる研究計画書の特徴4つ</b><span>テーマが大きすぎる・方法がない・文献ゼロ・志望先とのミスマッチ。大学院入試で評価を下げる典型。</span></a></div></section>
-<section><h2>研究科ごとの要件を見る</h2><p>字数・様式・出願時期は研究科ごとに大きく違います。<a href="./">研究科一覧</a>から確認してください。</p></section>
-</div></main><footer><div class="w">本サイトは各研究科の公式の募集要項・入試情報を整理した非公式の情報サイトです。出願の際は必ず最新の募集要項をご確認ください。誤りのご指摘は<a href="https://jun-ikeda-jun.github.io/">運営者ページ</a>まで。<br>最終更新 2026-08-20</div></footer>
+<p>研究計画書を出したあとに口述試験（面接）がある研究科では、書いた内容と話す内容が一貫していることが望まれます。準備の段階でそろえておいてください。</p>
+
+<h2>まず前提の確認</h2>
+<p>研究計画書が口述試験でどう扱われるかは、研究科によって異なります。当サイトが公式の入試ページで確認できた範囲では、書類審査の評価対象であることを明記している研究科はありましたが、<strong>「口述試験で計画書を題材にする」と明記している例は確認できませんでした。</strong>そのため当サイトでは「必ず聞かれる」とは書きません。ただ、聞かれても困らない状態にしておくことに損はありません。</p>
+<p>ご自身の受験先の扱いは、<a href="./">研究科一覧</a>の各ページの「審査での扱い」に、公式で確認できた範囲を載せています。</p>
+
+<h2>そろえておくこと</h2>
+<ul>
+<li><strong>問いを一文で言えるか</strong>：計画書の問いを、見ないで言えるようにしておく</li>
+<li><strong>なぜその方法なのか</strong>：面接で「他の方法ではだめか」と聞かれたときに答えられるか</li>
+<li><strong>データが取れるのか</strong>：対象へのアクセスの見込みを、具体的に説明できるか</li>
+<li><strong>指導を受けたい教員</strong>：研究科の教員一覧を見て、自分のテーマと近い人を挙げられるか</li>
+</ul>
+
+<h2>答えられないことは書かない</h2>
+<p>計画書に知らない理論や手法の名前を入れると、そこを聞かれたときに答えられません。<strong>自分で説明できる範囲だけで書く</strong>のが、結果的にいちばん安全です。読んだことのない文献を参考文献に並べるのも同じ理由で避けてください。</p>
+
+<h2>「まだ決まっていない」は言ってよい</h2>
+<p>入学前の計画がそのまま実行されることはまれです。方法の細部が固まっていないこと自体は問題になりません。<strong>問題になるのは、決まっていないことを決まったふりで書くことです。</strong>「現時点では面接調査を想定しているが、対象へのアクセス次第では質問紙に切り替える」と書いておけば、そのまま説明できます。</p>
+</article></section>
+<section><h2>ほかのガイド</h2><ul class="reads"><li><a href="guide-kihon-kousei.html">研究計画書の基本の構成</a><span>問い・先行研究・方法・意義。研究計画書に求められる要素と、その並べ方を骨子の実物で示す。</span></li><li><a href="guide-kenkyu-mondai-no-tatekata.html">研究の問いの立て方</a><span>社会人が持ち込む「困っていること」を、2年で調べ切れる問いに絞り込む手順。</span></li><li><a href="guide-jisu-yoshiki.html">字数と様式の実際</a><span>当サイトで公式に確認できた範囲での、字数・様式・出願時期の違いと、公表されていない場合の調べ方。</span></li><li><a href="guide-ng-keikakusho.html">評価が下がる研究計画書</a><span>問いが大きすぎる・自分語りになる・方法が書かれていない。よくある3つを悪い例と直した例で示す。</span></li><li><a href="guide-mba-essay-chigai.html">MBAの課題エッセイは研究計画書ではない</a><span>ビジネススクールには研究計画書を課さず課題エッセイを課すところがある。求められるものの違い。</span></li></ul></section>
+</div></main><footer><div class="w">
+<p>大学院入試の情報を個人で調べて整理している非公式のサイトです。運営は池田（会社員・個人で運営）。掲載している大学・研究科とは関係がありません。</p>
+<p>掲載内容は各研究科の公式入試ページを 2026-08-19 に確認したものです。募集要項は年度ごとに変わります。出願前に必ず最新の募集要項をご自身で確認してください。</p>
+<p>誤りを見つけた方は<a href="https://github.com/Jun-Ikeda-Jun/kenkyu-keikakusho-navi/issues/new" target="_blank" rel="noopener">報告フォーム</a>からお知らせください（<a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/about.html">訂正の方針</a>）。アクセス数の集計に GoatCounter を使っています（個人を特定する情報は取得していません）。</p>
+</div></footer>
 <script data-goatcounter="https://junikeda.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script></html>

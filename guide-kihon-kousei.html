@@ -1,10 +1,10 @@
 <!doctype html><html lang="ja"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>研究計画書の基本構成｜問い・先行研究・方法の3点セット｜研究計画書ナビ</title><meta name="description" content="大学院入試の研究計画書に必要な要素と順番。審査側が最初に見る「研究の問い」の立て方。">
+<title>研究計画書の基本の構成｜何を、どの順で書くか｜研究計画書ナビ</title><meta name="description" content="問い・先行研究・方法・意義。研究計画書に求められる要素と、その並べ方を骨子の実物で示す。">
 <link rel="canonical" href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-kihon-kousei.html">
-<meta property="og:title" content="研究計画書の基本構成｜問い・先行研究・方法の3点セット｜研究計画書ナビ"><meta property="og:description" content="大学院入試の研究計画書に必要な要素と順番。審査側が最初に見る「研究の問い」の立て方。"><meta property="og:type" content="website"><meta property="og:url" content="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-kihon-kousei.html">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"研究計画書の基本構成｜問い・先行研究・方法の3点セット","datePublished":"2026-08-20","dateModified":"2026-08-20","author":{"@type":"Organization","name":"研究計画書ナビ"},"mainEntityOfPage":"https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-kihon-kousei.html"}</script>
+<meta property="og:title" content="研究計画書の基本の構成｜何を、どの順で書くか｜研究計画書ナビ"><meta property="og:description" content="問い・先行研究・方法・意義。研究計画書に求められる要素と、その並べ方を骨子の実物で示す。"><meta property="og:type" content="website"><meta property="og:url" content="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-kihon-kousei.html"><meta property="og:locale" content="ja_JP">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"研究計画書の基本の構成｜何を、どの順で書くか","datePublished":"2026-08-20","dateModified":"2026-08-20","author":{"@type":"Person","name":"池田"},"mainEntityOfPage":"https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-kihon-kousei.html"}</script>
 <style>
-:root{--ink:#1c1a17;--sub:#6d675e;--line:#e4ddd1;--indigo:#3b3f8f;--indigo2:#2b2e6b;--gold:#b8860b;--bg:#faf7f1;--panel:#fffdf9}
+:root{--ink:#1c1a17;--sub:#6d675e;--line:#e4ddd1;--indigo:#3b3f8f;--indigo2:#2b2e6b;--gold:#8a6508;--bg:#faf7f1;--panel:#fffdf9}
 @media(prefers-color-scheme:dark){:root{--ink:#ece8e1;--sub:#a9a296;--line:#3a362f;--indigo:#8b8fd8;--indigo2:#6d72c4;--gold:#d4a53a;--bg:#171512;--panel:#201d19}}
 *{box-sizing:border-box}html{scroll-behavior:smooth}
 body{margin:0;font-family:-apple-system,"Hiragino Sans","Yu Gothic",sans-serif;color:var(--ink);background:var(--bg);line-height:1.95;font-size:16px}
@@ -40,21 +40,62 @@ article ol,article ul{padding-left:1.4em}article li{margin:6px 0}
 footer{border-top:1px solid var(--line);padding:22px 0 46px;font-size:12.5px;color:var(--sub)}
 footer a{color:var(--sub)}
 a{color:var(--indigo)}
-@media(max-width:560px){header.hero h1{font-size:22px}header.hero h1 br{display:none}section{padding:18px 16px}.list a{flex-direction:column;gap:2px}.list span{white-space:normal}}</style><nav class="top"><div class="w"><span class="brand">研究計画書ナビ</span><a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/">研究科一覧</a><a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-kihon-kousei.html">書き方ガイド</a></div></nav><header class="hero"><div class="w"><span class="tag">書き方ガイド</span><h1>研究計画書の基本構成</h1><p>問い・先行研究・方法の3点セット</p></div></header>
-<main><div class="w"><div class="crumb"><a href="./">研究科一覧</a> › ガイド</div>
+@media(max-width:560px){header.hero h1{font-size:22px}header.hero h1 br{display:none}section{padding:18px 16px}.list a{flex-direction:column;gap:2px}.list span{white-space:normal}}
+/* 2026-08-20 追加: 提出の要否を伝える帯・読み物導線・欠落表示 */
+.badge{display:inline-block;font-size:12px;letter-spacing:.06em;color:var(--sub);margin:0 0 8px}
+.lead{margin:12px 0 0;font-size:15px;color:var(--sub);max-width:34em}
+/* ヒーローの背景は紙色（--panel）なので、白文字にすると読めなくなる */
+header.hero .lead{color:var(--sub)}
+.list{list-style:none;padding:0}
+.list li{margin:0}
+.meta{font-size:13px;color:var(--sub);text-align:right;flex-shrink:0}
+.notice{border:1px solid var(--gold);background:color-mix(in srgb,var(--gold) 8%,var(--panel));
+  border-radius:8px;padding:16px 20px;margin:0 0 24px}
+.notice b{display:block;font-size:17px;margin-bottom:4px}
+.notice p{margin:0;font-size:15px}
+.reads{list-style:none;padding:0;margin:0}
+.reads li{border-top:1px solid var(--line);padding:14px 0}
+.reads li:last-child{border-bottom:1px solid var(--line)}
+.reads a{font-weight:700;text-decoration:none;font-size:16px}
+.reads a:hover{text-decoration:underline}
+.reads span{display:block;font-size:13.5px;color:var(--sub);margin-top:2px}
+.stopped{color:var(--gold);font-size:13px;margin-left:10px;font-weight:600}
+</style><nav class="top"><div class="w"><a class="brand" href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/">研究計画書ナビ</a><a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/">研究科一覧</a><a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/guide-kihon-kousei.html">書き方</a><a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/about.html">このサイトについて</a></div></nav><header class="hero"><div class="w"><span class="badge">書き方ガイド</span><h1>研究計画書の基本の構成</h1>
+<p class="lead">何を、どの順で書くか</p></div></header>
+<main><div class="w"><p class="crumb"><a href="./">研究科一覧</a> ／ 書き方ガイド</p>
 <section><article>
-<p>研究計画書は「何を・なぜ・どうやって研究するか」を限られた字数で示す書類です。形式は研究科ごとに違っても、審査側が見る中身は共通しています。</p>
-<h2>必須の3要素</h2>
+<p>研究計画書は、作文でも志望動機書でもありません。<strong>「この人に2年間の研究をやり切らせて大丈夫か」を判断するための書類</strong>です。だから求められるのは熱意ではなく、問いと方法の具体性です。</p>
+
+<h2>入れる要素は5つ</h2>
 <ol>
-<li><strong>研究の問い</strong> — 「◯◯について研究したい」はテーマであって問いではありません。「なぜ◯◯では△△が起きるのか」「◯◯は△△にどう影響するか」と<strong>疑問文で言い切れる形</strong>まで絞ります</li>
-<li><strong>先行研究</strong> — その問いについて既に何が分かっていて、何が分かっていないか。最低でも数本の文献に触れ、「自分の研究が埋める隙間」を示します</li>
-<li><strong>方法</strong> — どんなデータを、どう集め、どう分析するか。インタビューなら対象と人数、統計なら使うデータの出所まで書けると具体性が出ます</li>
+<li><strong>研究したい問い</strong> — 何を明らかにしたいのかを、疑問文で言えるところまで絞る</li>
+<li><strong>その問いが立つ背景</strong> — 実務経験でも社会的な状況でもよい。なぜ今それを問うのか</li>
+<li><strong>すでに分かっていること</strong> — 先行研究。ここが空だと「調べていない人」に見えます</li>
+<li><strong>どうやって調べるか</strong> — 対象・方法・入手可能性。ここが計画書の中心です</li>
+<li><strong>分かると何が言えるか</strong> — 学術的な意義と、実務への示唆</li>
 </ol>
-<h2>よくある構成（2,000字の場合の目安）</h2>
-<table><tr><th>研究テーマと問い</th><td>約20%</td></tr><tr><th>背景・先行研究</th><td>約30%</td></tr><tr><th>研究方法</th><td>約30%</td></tr><tr><th>期待される成果・進学後の計画</th><td>約20%</td></tr></table>
-<p>字数・様式は研究科ごとに大きく異なります。本サイトの研究科別ページで公式の要件を確認してください。</p></article></section>
-<section><h2>ほかのガイド</h2><div class="guides"><a href="guide-shakaijin-theme.html"><b>社会人が研究テーマを決める手順</b><span>社会人大学院・MBAの研究計画で、業務経験を研究テーマに落とし込む具体的な手順。</span></a><a href="guide-koujutsu-shiken.html"><b>口述試験で研究計画書はこう使われる</b><span>大学院入試の面接（口述試験）で研究計画書がどう扱われるか。矛盾を作らない書き方。</span></a><a href="guide-mba-essay-chigai.html"><b>MBAのエッセイと研究計画書の違い</b><span>MBA出願のエッセイ（キャリアゴール型）と研究計画書（リサーチ型）の違いと、それぞれの書き分け。</span></a><a href="guide-ngshu.html"><b>落ちる研究計画書の特徴4つ</b><span>テーマが大きすぎる・方法がない・文献ゼロ・志望先とのミスマッチ。大学院入試で評価を下げる典型。</span></a></div></section>
-<section><h2>研究科ごとの要件を見る</h2><p>字数・様式・出願時期は研究科ごとに大きく違います。<a href="./">研究科一覧</a>から確認してください。</p></section>
-</div></main><footer><div class="w">本サイトは各研究科の公式の募集要項・入試情報を整理した非公式の情報サイトです。出願の際は必ず最新の募集要項をご確認ください。誤りのご指摘は<a href="https://jun-ikeda-jun.github.io/">運営者ページ</a>まで。<br>最終更新 2026-08-20</div></footer>
+
+<h2>いちばん多い失敗は、問いが大きすぎること</h2>
+<blockquote>× 日本の中小企業の生産性向上について研究したい<br>○ 従業員50名以下の製造業において、現場改善の提案制度が定着する事業所と定着しない事業所で、管理職の関与の仕方にどのような違いがあるのか</blockquote>
+<p>上は研究テーマですらなく、分野の名前です。下は2年で調べ切れる大きさで、しかも「何を比べるのか」がはっきりしています。<strong>問いを絞ると、方法が自動的に決まります。</strong>逆に方法が思いつかないなら、問いがまだ大きいということです。</p>
+
+<h2>骨子の実物</h2>
+<div class="notice"><b>骨子の例（社会人・製造業勤務の場合）</b>
+<p><strong>問い</strong>：中小製造業において、現場からの改善提案制度が定着する条件は何か。<br>
+<strong>背景</strong>：勤務先を含む複数社で同じ制度を導入したが、続く現場と半年で止まる現場に分かれた。制度設計は同じだったため、運用側に理由があると考えている。<br>
+<strong>先行研究</strong>：提案制度の効果を扱った研究は生産性指標との関係が中心で、定着の条件そのものを扱った研究は限られる。<br>
+<strong>方法</strong>：制度を3年以上継続している2社と、1年以内に停止した2社を対象に、管理職と現場作業者へ半構造化面接を行い、比較する。対象企業には業界団体を通じて依頼できる見込みがある。<br>
+<strong>意義</strong>：制度そのものではなく運用に条件を求める点で先行研究を補い、導入を検討する企業に判断材料を示せる。</p></div>
+<p>この骨子は400字ほどです。ここが固まっていれば、指定字数がいくつであっても書けます。<strong>先に字数を埋めようとせず、骨子を作ってください。</strong></p>
+
+<h2>字数と様式は研究科ごとに違う</h2>
+<p>2,000字程度のところもあれば、様式が指定されているところもあります。当サイトで公式に確認できた研究科は<a href="./">研究科一覧</a>に載せています。公表されていない研究科も多いので、その場合は募集要項の本体を取り寄せて確認してください。</p>
+</article></section>
+<section><h2>ほかのガイド</h2><ul class="reads"><li><a href="guide-kenkyu-mondai-no-tatekata.html">研究の問いの立て方</a><span>社会人が持ち込む「困っていること」を、2年で調べ切れる問いに絞り込む手順。</span></li><li><a href="guide-jisu-yoshiki.html">字数と様式の実際</a><span>当サイトで公式に確認できた範囲での、字数・様式・出願時期の違いと、公表されていない場合の調べ方。</span></li><li><a href="guide-koujutsu-shiken.html">口述試験と研究計画書</a><span>計画書に書いたことと面接で話すことが食い違うと困る。準備の段階でそろえるための整理。</span></li><li><a href="guide-ng-keikakusho.html">評価が下がる研究計画書</a><span>問いが大きすぎる・自分語りになる・方法が書かれていない。よくある3つを悪い例と直した例で示す。</span></li><li><a href="guide-mba-essay-chigai.html">MBAの課題エッセイは研究計画書ではない</a><span>ビジネススクールには研究計画書を課さず課題エッセイを課すところがある。求められるものの違い。</span></li></ul></section>
+</div></main><footer><div class="w">
+<p>大学院入試の情報を個人で調べて整理している非公式のサイトです。運営は池田（会社員・個人で運営）。掲載している大学・研究科とは関係がありません。</p>
+<p>掲載内容は各研究科の公式入試ページを 2026-08-19 に確認したものです。募集要項は年度ごとに変わります。出願前に必ず最新の募集要項をご自身で確認してください。</p>
+<p>誤りを見つけた方は<a href="https://github.com/Jun-Ikeda-Jun/kenkyu-keikakusho-navi/issues/new" target="_blank" rel="noopener">報告フォーム</a>からお知らせください（<a href="https://jun-ikeda-jun.github.io/kenkyu-keikakusho-navi/about.html">訂正の方針</a>）。アクセス数の集計に GoatCounter を使っています（個人を特定する情報は取得していません）。</p>
+</div></footer>
 <script data-goatcounter="https://junikeda.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script></html>
